@@ -1,12 +1,11 @@
-# Do Touch This: Turning a Plaster Bust Into a Tangible Interface
+# Do Touch This: Turning a Plaster Bust Into a Tangible Interface - WIP
 
-This readme will contain a summary of the prototyping work that was done for the paper to create the prototypes of the plaster bust of Ludwig I. Alongside, all of the findings of the authors regarding things that one has to pay attention to as well as some dos and don'ts will be shared.
+This readme will contain a summary of the prototyping work that was done for the paper to create the prototype of the plaster bust. Alongside, all of the findings of the authors regarding things that one has to pay attention to as well as some dos and don'ts will be shared.
 
 ## Table of contents
 
 #### 1. Silicone mold from the bust of Ludwig I. and basic plaster castings
 #### 2. Capacitive sensing
-#### 3. Pre-study
 #### 4. Audio/Video output
 #### 5. Creation of the prototype of the interactive bust of Ludwig I.
 
@@ -116,32 +115,6 @@ To be able to program the chip there is the "Adafruit_MPR121" library that has t
 Another method to improve the capacitive readings in comparison to the previous approach was to implement a calibration phase at the start. The way this works is the following: When the Arduino program is started there's a calibration phase which lasts 20 seconds and in which every sensor from the bust gets touched multiple times. The software is programmed so that it registers the minimum and maximum values of each sensor during that calibration phase. Afterwards, when the calibration is done, and the program is in its normal state, a touch is registered when the value goes down into the range of "minimum value + x" where "x" is a value that has to be defined beforehand. When this value would be 0 that could be problematic because when a sensor was pressed very hard during the calibration phase and doesn't get pressed so hard again later on during the normal interaction phase, a touch would never get registered. The values that the authors used for this project range from 1-4 as can be seen in the final code. Once the calibration is done the program can run normally for as long as desired. Just when the bust gets moved to a completely different location which might e. g. be way more humid the calibration should be done again because the readings will be different in this new location.
 
 One more note: Through an experiment the authors found out that it is very important to make the connection of the sensors to the MPR121 as direct as possible. The authors tried to use a D-sub connector to connect the sensors of the final bust to the MPR121 to tidy the connections up a bit but that didn't turn out well: The value range (untouched vs. touched) became way smaller then (about 5 units instead of 10). Apparently, the connector reduces the capacitive signal. When using a D-sub connector between the MPR121 and the Arduino (as the authors also did) that's no problem.
-
-## 3. Pre-study
-
-After having done some basic tests regarding capacitive sensing a pre-study got conducted. The full study is described in-depth in the paper while this section will just focus on the prototyping work and the material explorations in this stage that the authors conducted. For this study a new bust got cast. This was just a basic plaster version of it that contained no sensors. One of the goals of this study was to find out where potential museum visitors would like to touch the statue to get which kind of information and also how they interact with the statue (tapping, swiping etc.). Another goal was to find out how to best convey to the visitors that certain parts of the bust are made for tangible interaction in the first place. Before the pre-study got conducted there had to be found a solution to be able to see on the bust where and how a participant touched it after he or she lifted the finger. The authors tested multiple approaches:
-
-* The first idea was to use an **infrared camera** for that but when this approach got tested it turned out that it is not suitable for this use case because of numerous issues. One problem was that the temperature traces that a user left onto the bust once he/she touched it quickly disappeared once the finger got lifted off of the surface. This was not a problem when the participant touched a part of the statue for a longer period of time but in this case the opposite problem came up: The residual heat was present way too long. Cooling these parts wouldn’t work because then it would be too cold on these parts. Also it would have been difficult to conduct the study over several days because ideally the ambient temperature would be constant all of the time so that the infrared camera can get properly calibrated to these exact conditions in order to deliver comparable results.
-* The next idea was to use **UV colors** alongside a black light. The idea was that participants wear gloves and dip their fingers into a UV color prior to touching the bust. The issue with this approach was that the UV color couldn’t be removed from the bust afterwards even though the bust was treated with several layers of clear paint before. A better approach was to use UV pigments which got mixed with toothpaste. This mixture was easier to remove but not well enough. Once a few participants touched the statue the residual paint accumulated. This can be seen in the following figure (the actual traces are on the lips while residual traces can be seen on the forehead).
-
-<img src="https://user-images.githubusercontent.com/44895720/91060639-7dfdf900-e62b-11ea-8108-af3e0e74e8f9.jpeg" height="600">
-
-* The final solution was to just use **water colors**. The participants wore gloves, dipped their fingers into water and then into the water color and then touched the statue. This approach worked well because the water color could easily be removed with a damp towel afterwards. The following figure shows some touch traces that the participants' fingers left on the bust (multiple images got combined into a single one for this image because the color got removed with a damp towel each time after a participant touched it).
-
-<img src="https://user-images.githubusercontent.com/44895720/91163598-1ea4f500-e6ce-11ea-9e07-da3a50a2078c.png" height="600">
-
-Based on where the participants touched the statue and also the way they touched it to get certain kinds on information the following decisions were made for the next prototype of the bust:
-
-* Tapping on the forehead –> Information regarding the foundation of the Glyptothek
-* Swiping across the lips –> Information regarding Ludwig’s wife
-* Swiping across the forehead –> Information regarding Ludwig’s poetry
-* Swiping across the nose –> Information regarding Ludwig’s business communication
-
-The topics have been chosen by the authors but what interaction triggers what topic got determined by the study. During the further prototyping process the authors decided to also include 2 capacitive sensors in the hair. This should trigger some information regarding Lola Montez. The following figure shows the exact areas marked in an image editor.
-
-<img src="https://user-images.githubusercontent.com/44895720/91066571-2747ed80-e632-11ea-8ef5-80dcc5b5ccc1.jpeg" height="600">
-
-To mark these interactive areas the authors decided to use color because this was the preferred method of the people who participated in the pre-study. As mentioned earlier, the actual study is described in the paper.
 
 ## 4. Audio/Video output
 
