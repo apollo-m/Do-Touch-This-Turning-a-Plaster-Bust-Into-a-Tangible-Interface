@@ -8,7 +8,8 @@ This readme contains a summary of the prototyping work that was done for the pap
 ##### 1.1 Silicone Mold From the Bust and Basic Plaster Castings
 ##### 1.2 Capacitive Sensing
 
-## 1. Silicone mold from the bust of Ludwig I. and basic plaster castings
+## 1. First Design Iteration
+### 1.1 Silicone Mold From the Bust and Bascic Plaster Castings
 
 In this section it will be described gradually how a silicone mold was created from the original bust from the museum and how it was used to make further plaster castings.
 
