@@ -4,14 +4,14 @@ This readme will contain a summary of the prototyping work that was done for the
 
 ## Table of contents
 
-#### 1. Silicone mold from the bust of Ludwig I. and basic plaster castings
+#### 1. Silicone mold from the bust and basic plaster castings
 #### 2. Capacitive sensing
+#### 3. Creation of the prototype of the interactive bust
 #### 4. Audio/Video output
-#### 5. Creation of the prototype of the interactive bust of Ludwig I.
 
 ## 1. Silicone mold from the bust of Ludwig I. and basic plaster castings
 
-In this section it will be described gradually how a silicone mold was created from the original Ludwig bust from the Staatliche Antikensammlungen and how it was used to make further plaster castings.
+In this section it will be described gradually how a silicone mold was created from the original bust from the museum and how it was used to make further plaster castings.
 
 The first step was to cut out a base plate (in this case made out of wood) where the head can rest on. In order to fixate the head onto the board and to prevent any silicone from leaking under the head before it fully cures Plasticine (a sort of modeling clay) was used. In order for it to be malleable it was put in the microwave for a short period of time which made working with it way easier. Then the clay was used to seal all of the crevices between the head and the base plate (see figure below).
 
@@ -118,7 +118,7 @@ One more note: Through an experiment the authors found out that it is very impor
 
 ## 4. Audio/Video output
 
-The next task was figuring out how exactly the output should be presented once a potential visitor interacts with the statue. The authors decided to use two different form of output: Audio and a display. The decision to provide audio output was pretty straightforward. It is an easy and fast way to convey information and even visually impaired people can benefit from this type of output. So now the next step was to formulate some short texts for each of the five different scenarios (information about the Glyptothek, information regarding Ludwig’s wife etc.). Then these texts got recorded as audio recordings (.mp3 format) and stored onto a microSD card. To play these recordings using an Arduino there are multiple options. One option would be to use the "ARDUINO ETHERNET SHIELD 2" which contains a microSD card reader. Alongside the microSD card reader an Ethernet shield offers many additional features but if the only goal is to have a microSD card reader an even better option is to use the "DFPlayer Mini MP3 Player For Arduino". This is a small MP3 module with a built-in microSD card reader that can output directly to a speaker. It even features a digital-to-analog converter (DAC). Before being able to use it it is necessary to install the "DFRobotDFPlayerMini" library for the Arduino. As a speaker a simple 8 MΩ speaker was used. The following figure shows a wiring diagram for a setup that involves the MP3 player and a speaker.
+The next task was figuring out how exactly the output should be presented once a potential visitor interacts with the statue. The authors decided to use two different form of output: Audio and a display. The decision to provide audio output was pretty straightforward. It is an easy and fast way to convey information and even visually impaired people can benefit from this type of output. So now the next step was to formulate some short texts for each of the five different scenarios (information about the Glyptothek, information regarding Ludwig’s wife etc.). Then these texts got recorded as audio recordings (.mp3 format) and stored onto a microSD card. To play these recordings using an Arduino there are multiple options. One option would be to use the "ARDUINO ETHERNET SHIELD 2" which contains a microSD card reader. Alongside the microSD card reader an Ethernet shield offers many additional features but if the only goal is to have a microSD card reader an even better option is to use the "DFPlayer Mini MP3 Player For Arduino". This is a small MP3 module with a built-in microSD card reader that can output directly to a speaker. It even features a digital-to-analog converter (DAC). Before being able to use it it is necessary to install the "DFRobotDFPlayerMini" library for the Arduino. As a speaker a simple 8 Ω speaker was used. The following figure shows a wiring diagram for a setup that involves the MP3 player and a speaker.
 
 <img src="https://user-images.githubusercontent.com/44895720/91063335-26ad5800-e62e-11ea-9389-5be6e2bb1850.png" width="600">
 
