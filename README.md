@@ -1,6 +1,6 @@
 # Do Touch This: Turning a Plaster Bust Into a Tangible Interface - WIP
 
-This readme will contain a summary of the prototyping work that was done for the paper to create the prototype of the plaster bust. Alongside, all of the findings of the authors regarding things that one has to pay attention to as well as some dos and don'ts will be shared.
+This readme contains a summary of the prototyping work that was done for the paper to create the prototype of the plaster bust. Alongside, all of the findings of the authors regarding things that one has to pay attention to as well as some dos and don'ts will be shared.
 
 ## Table of contents
 
