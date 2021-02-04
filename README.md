@@ -2,12 +2,11 @@
 
 This readme contains a summary of the prototyping work that was done for the paper to create the prototype of the plaster bust. Alongside, all of the findings of the authors regarding things that one has to pay attention to as well as some dos and don'ts will be shared.
 
-## Table of contents
+## Table of Contents
 
-#### 1. Silicone mold from the bust and basic plaster castings
-#### 2. Capacitive sensing
-#### 3. Creation of the prototype of the interactive bust
-#### 4. Audio/Video output
+#### 1. First Design Iteration
+##### 1.1 Silicone Mold From the Bust and Basic Plaster Castings
+##### 1.2 Capacitive Sensing
 
 ## 1. Silicone mold from the bust of Ludwig I. and basic plaster castings
 
