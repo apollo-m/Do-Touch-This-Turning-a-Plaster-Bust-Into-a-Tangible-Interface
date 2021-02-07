@@ -4,12 +4,10 @@ This readme contains a summary of the prototyping work that was done for the pap
 
 ## Table of Contents
 
-#### 1. First Design Iteration
-##### 1.1 Silicone Mold From the Bust and Basic Plaster Castings
-##### 1.2 Capacitive Sensing
+#### 1. Silicone Mold From the Bust
+#### 2. Capacitive Sensing
 
-## 1. First Design Iteration
-### 1.1 Silicone Mold From the Bust and Bascic Plaster Castings
+## 1. Silicone Mold From the Bust
 
 In this section it will be described how a silicone mold was created from the original bust from the museum and how it was used to make further plaster castings.
 
@@ -34,21 +32,7 @@ The next step was to unmold the head. On some parts the head was a bit difficult
 
 <img src="https://user-images.githubusercontent.com/44895720/90312531-88bade80-df05-11ea-94a2-e023685e7bfa.jpeg" width="600">
 
-Next, it will be described how the silicone mold was used to create plaster castings of the bust of Ludwig I. To prevent the dried plaster from sticking to the silicone the anti-sticking spray was used again. Later on in the prototyping process the authors found out that it was only necessary to use the spray to create the silicone mold. It doesn't need to get used to create the plaster castings. After some time this spray forms a waxy layer on the silicone. After that a bit of plaster got mixed with warm water in a ratio of 1.5:1 and once the mixture was properly mixed it got poured inside of the mold, the mold got tilted around and a brush was used to apply a thin layer of the plaster all around the inside of the silicone mold. This was done so that the plaster gets into every nook and cranny of the mold so that the resulting casting turns out well. The next batch of the plaster should be more viscous than the first batch was because this way it can be applied in a more generous way and it will dry out faster and stay on the places where it has been applied. To make the process a bit easier a wooden frame in the shape of the contour of the silicone mold got used which got placed on top of the mold and which had overlapping edges to the inside (around 1 cm) as a guide to see how thick the plaster casting has to get so that it can be properly unmolded. This can be seen in the following figure.
-
-<img src="https://user-images.githubusercontent.com/44895720/90313836-de948400-df0f-11ea-9567-929971234b89.jpeg" height="600">
-
-The following figure shows the cured plaster casting which can then be unmolded.
-
-<img src="https://user-images.githubusercontent.com/44895720/90313858-13a0d680-df10-11ea-9ffc-a7d9a347820e.jpeg" height="600">
-
-The final unmolded head can be seen in the next figure.
-
-<img src="https://user-images.githubusercontent.com/44895720/90313893-4519a200-df10-11ea-8af2-313304300255.jpeg" height="600">
-
-As can be seen there are a few darker spots on it. This is from the spray that has been used and this is why on subsequent experiments less of the spray was used (until the authors found out that such a spray is not even necessary).
-
-### 1.2 Capacitive Sensing
+## 2. Capacitive Sensing
 
 This section will describe how the capacitive sensing capabilities have been built, what materials have been used etc.
 
