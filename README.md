@@ -19,7 +19,7 @@ The first step was to cut out a base plate (in this case made out of wood) where
 
 The next step was to build a wooden case around the bust to build a vessel for the silicone. This can be seen in the figure below.
 
-<img src="https://user-images.githubusercontent.com/44895720/90312425-a5a2e200-df04-11ea-916f-551afaf232df.jpeg" height="500">
+<img src="https://user-images.githubusercontent.com/44895720/90312425-a5a2e200-df04-11ea-916f-551afaf232df.jpeg" height="450">
 
 The silicone that was used is a "SF33 - RTV2" silicone. This type of silicone is milky-transparent, very durable and heat-resistant. It’s a silicone that is made for making silicone molds and it consists of two parts:
 
@@ -28,11 +28,11 @@ The silicone that was used is a "SF33 - RTV2" silicone. This type of silicone is
 
 Once these two parts are properly mixed in a 1:1 ratio the silicone cures in around 3 hours at room temperature. Higher temperatures speed up the curing process. Normal silicone needs air to cure which would have been problematic here because the final mold is quite thick. The "SF33" means that its Shore hardness is "33" so it’s medium-hard. For this project 10 kg of silicone were used. But before the silicone got poured inside the vessel an anti-sticking spray ("Achem SG-1008S") was used to spray a thin layer onto the bust. This is important so that the silicone doesn't stick afterwards. After the spray was dried (it forms a waxy layer) a thin layer of the silicone was applied on the whole bust by using a small brush. This way it is ensured that there get no air bubbles trapped in between the plaster and the silicone. Then the rest of the silicone got poured inside the vessel. The following figure shows the silicone mold once it was cured.
 
-<img src="https://user-images.githubusercontent.com/44895720/90312479-14803b00-df05-11ea-9f67-daea6af736c2.jpeg" width="600">
+<img src="https://user-images.githubusercontent.com/44895720/90312479-14803b00-df05-11ea-9f67-daea6af736c2.jpeg" width="500">
 
 The next step was to unmold the head. On some parts the head was a bit difficult to get out of the mold but in the end it worked out well. The next figure shows the finished silicone mold.
 
-<img src="https://user-images.githubusercontent.com/44895720/90312531-88bade80-df05-11ea-94a2-e023685e7bfa.jpeg" width="600">
+<img src="https://user-images.githubusercontent.com/44895720/90312531-88bade80-df05-11ea-94a2-e023685e7bfa.jpeg" width="500">
 
 ## 2. Capacitive Sensing
 
@@ -45,7 +45,7 @@ For this project an "ARDUINO UNO REV3" which got powered through a Laptop via US
 
 The following figure shows how such pieces of copper foil can look like.
 
-<img src="https://user-images.githubusercontent.com/44895720/90331894-82d20580-dfb8-11ea-8128-0a94e7270aa5.jpeg" width="600">
+<img src="https://user-images.githubusercontent.com/44895720/90331894-82d20580-dfb8-11ea-8128-0a94e7270aa5.jpeg" width="500">
 
 The most basic setup for one capacitive sensor just involves:
 
@@ -69,7 +69,7 @@ The next tests were to try to embed the copper foils into the plaster. This appr
 
 Something important to note about using this Capacitive Sensing Library in general is that the whole system is not the most stable one. Some minor shifts from the cables could be enough sometimes that the sensor readings weren’t usable anymore. Also it turned out that it is best if the cables don’t touch one another because apparently this causes some capacitive interferences. This is why the authors decided to use a different solution for this project. The solution that was found was to use the "Adafruit 12-Key Capacitive Touch Sensor Breakout - MPR121". As the name suggests it supports up to 12 individual touch pads. The MPR121 chip handles filtering and can also be configured to be more or less sensible. The following figure shows how this touch chip gets connected to the Arduino (there are two sensors connected to the chip).
 
-<img src="https://user-images.githubusercontent.com/44895720/90981707-e2a15100-e562-11ea-84c9-8a61558dca98.png" height="600">
+<img src="https://user-images.githubusercontent.com/44895720/90981707-e2a15100-e562-11ea-84c9-8a61558dca98.png" height="450">
 
 To be able to program the chip there is the "Adafruit_MPR121" library that has to be installed. There is a basic program under "codes/capacitive_sensors_mpr121.ino" which outputs which sensor has been touched and released in the serial monitor. The way it works is that this code keeps track of the 12 "bits" for each touch. The sensor measures the capacitance with "counts". There’s a baseline count number which depends on different factors like the temperature or the humidity. When the number changes a significant amount it is considered as a touch or release. To be precise, each sensor has two values: The aforementioned base value ("cap.baselineData(i)") and the current filtered data reading ("cap.filteredData(i)") (i goes from 0 to 11). When the current reading is within 12 counts of the baseline value it is considered that the sensor is not touched. When the reading is more than 12 counts smaller than the baseline value a touch gets reported. There’s also the possibility to see if a particular sensor is touched (e. g. sensor #4: "if (cap.touched() & (1 « 4)) { do something }"). There are also commands to get the baseline and filtered data of each sensor ("filteredData(sensornumber);" respectively "baselineData(sensornumber);"). And lastly, there’s also the possibility to change the thresholds for touch detection but just for all sensors globally. Compared with the previous approach that didn’t involve this dedicated touch sensing chip there are two things to note:
 
@@ -84,7 +84,7 @@ One more note: Through an experiment the authors found out that it is very impor
 
 The next task was figuring out how exactly the output should be presented once a potential visitor interacts with the statue. The authors decided to use two different form of output: Audio and a display. The decision to provide audio output was pretty straightforward. It is an easy and fast way to convey information and even visually impaired people can benefit from this type of output. So now the next step was to formulate some short texts for each of the five different scenarios (information about the Glyptothek, information regarding Ludwig’s wife etc.). Then these texts got recorded as audio recordings (.mp3 format) and stored onto a microSD card. To play these recordings using an Arduino there are multiple options. One option would be to use the "ARDUINO ETHERNET SHIELD 2" which contains a microSD card reader. Alongside the microSD card reader an Ethernet shield offers many additional features but if the only goal is to have a microSD card reader an even better option is to use the "DFPlayer Mini MP3 Player For Arduino". This is a small MP3 module with a built-in microSD card reader that can output directly to a speaker. It even features a digital-to-analog converter (DAC). Before being able to use it it is necessary to install the "DFRobotDFPlayerMini" library for the Arduino. As a speaker a simple 8 Ω speaker was used. The following figure shows a wiring diagram for a setup that involves the MP3 player and a speaker.
 
-<img src="https://user-images.githubusercontent.com/44895720/91063335-26ad5800-e62e-11ea-9389-5be6e2bb1850.png" width="600">
+<img src="https://user-images.githubusercontent.com/44895720/91063335-26ad5800-e62e-11ea-9389-5be6e2bb1850.png" width="500">
 
 Before trying the audio output in combination with the bust a basic test was performed with two capacitive sensors and two different audio recordings. Depending on which sensor was touched a different recording should play. The code to implement this functionality can be found under "Codes/Capacitive_Audio.ino". Some important notes are that the microSD card has to be formatted in either the FAT16 or the FAT32 format and that the .mp3 files have to be placed in a folder called "MP3" which has to be put in the root directory. The .mp3 files themselves have to be named "0001.mp3", "0002.mp3" etc.
 
@@ -98,7 +98,7 @@ In this chapter it will be described step-by-step how the final prototype of the
 
 This first step is sort of a pre-step to the actual creation of the bust. Depending on the specific needs for the project it is not absolutely necessary. When the exact placement of the sensors is not really crucial one can omit this step. But in this particular project the exact placement is very important. The reason why it is then necessary to mark the positions of the sensors beforehand is the following: Once the first layer of plaster gets poured the small details in the silicone mold can't be properly seen anymore. The solution that was found involves a laser pointer mounted on a wooden plank. A wooden plank was cut and a hole got drilled inside of it so that a laser pointer could fit into it. Then this plank got placed on top of the silicone mold and moved around to the different spots so that at each position the laser pointer pointed at the exact position where a copper pad should be. Then the respective positions got marked on the plank and also on the silicone mold. This can be seen in the following figure.
 
-<img src="https://user-images.githubusercontent.com/44895720/90980971-a66bf180-e55e-11ea-9e1a-79c73a982089.jpeg" height="600">
+<img src="https://user-images.githubusercontent.com/44895720/90980971-a66bf180-e55e-11ea-9e1a-79c73a982089.jpeg" height="450">
 
 ### Step 2: Preparation of the silicone mold
 
@@ -120,47 +120,47 @@ Before the plaster dried the authors used some gauze and pressed it into the par
 
 Then the plaster has to dry. It is best to let the plaster dry at least overnight. The result of this step can be seen in the following figure.
 
-<img src="https://user-images.githubusercontent.com/44895720/90979216-f3969600-e553-11ea-9ac6-b886fd5458d9.jpg" height="600">
+<img src="https://user-images.githubusercontent.com/44895720/90979216-f3969600-e553-11ea-9ac6-b886fd5458d9.jpg" height="450">
 
 ### Step 4: Adding the sensors
 
 The next step was to add the sensors. The authors decided to use copper foil for this. The foil came pre-glued onto paper so it could be peeled off and then glued onto the dried plaster. In order to be sure that the sensors get placed at the exact locations where they should be the trick with the laser pointer got used. It is important that the sensors aren't too small. Otherwise, the capacitive sensing will get problematic later on. Coin-shaped sensors with a diameter of about 2.5 cm worked well. It has to be ensured that the sensors have good contact with the plaster. This can be a bit challenging on very curved surfaces like on the nose but a few cuts with a scissor help the copper foil to adhere to the surface of the plaster. The sensors on the hair part are deliberately bigger because there the goal was that is doesn't matter where exactly the user touches the bust. Lastly, some wires needed to be soldered to the sensors. The following figure shows the result of this step.
 
-<img src="https://user-images.githubusercontent.com/44895720/90979719-50e01680-e557-11ea-9ca2-efe19886f93d.jpg" height="600">
+<img src="https://user-images.githubusercontent.com/44895720/90979719-50e01680-e557-11ea-9ca2-efe19886f93d.jpg" height="450">
 
 ### Step 5: Adding the hot glue
 
 Then follows the isolating layer. The authors chose to use hot glue for this purpose. The hot glue doesn't need to be applied everywhere but just on a rectangle that covers all of the sensors. It would propably be even enough when just the sensors get covered although this did not explicitely get tested. During this step one has to pay attention that every part of the sensors is covered so that there are no holes in the hot glue layer. Otherwise, there can be a short circuit later on due to the grounding layer (that now follows) being in contact with the sensors. The result of this step can be seen in the following figure.
 
-<img src="https://user-images.githubusercontent.com/44895720/90979736-6f461200-e557-11ea-9d59-ec8756725c11.jpg" height="600">
+<img src="https://user-images.githubusercontent.com/44895720/90979736-6f461200-e557-11ea-9d59-ec8756725c11.jpg" height="450">
 
 ### Step 6: Adding the grounding layer
 
 The next step is to add the grounding layer. Again, the authors chose the copper foil for that. The grounding layer is important to improve the results of the capacitive sensing. As with the hot glue, the grounding foil got applied in a rectangle that covers all sensors. Then a cable needs to be soldered to this layer. The next figure shows the result of this step. Note: The picture got taken before this wire got added.
 
-<img src="https://user-images.githubusercontent.com/44895720/90979905-4eca8780-e558-11ea-9270-7024f56e728f.jpg" height="600">
+<img src="https://user-images.githubusercontent.com/44895720/90979905-4eca8780-e558-11ea-9270-7024f56e728f.jpg" height="450">
 
 ### Step 7: Adding the "Moltofill"
 
 This is a step that is not absolutely necessary but it is best to do. This step involves applying a layer of Moltofill. The reason is the following: Liquid plaster doesn't combine well with already cured plaster and it also expands when drying so the problem is that the second plaster layer might cause the first one to crack a bit because it expands a little bit. So the idea is to apply a thin layer of Moltofill before applying the second plaster layer. The Moltofill should be slightly dried but not all the way before the second plaster layer gets poured so that it combines well. The following figure shows the result after adding the Moltofill and letting it slightly dry.
 
-<img src="https://user-images.githubusercontent.com/44895720/90980025-1d9e8700-e559-11ea-8cb6-1be0be3214f3.jpg" height="600">
+<img src="https://user-images.githubusercontent.com/44895720/90980025-1d9e8700-e559-11ea-8cb6-1be0be3214f3.jpg" height="450">
 
 ### Step 8: Adding the last layer of plaster
 
 The last step regarding the creation of the bust itself is to add the second layer of plaster. This layer can basically be as thick as one wants to give enough structural stability to the bust. The next figure shows the result.
 
-<img src="https://user-images.githubusercontent.com/44895720/90980130-cb119a80-e559-11ea-85d0-3b55a79fdc10.jpg" height="600">
+<img src="https://user-images.githubusercontent.com/44895720/90980130-cb119a80-e559-11ea-85d0-3b55a79fdc10.jpg" height="450">
 
 The next figure shows an updated version of the schematic drawing from earlier. For this example, just two sensors are shown. The left one has a layer of gauze under it to give more stability while the right one is just left as is. It can also be seen that the layer of Moltofill got added to the drawing. This is the layer under the second plaster layer.
 
-<img src="https://user-images.githubusercontent.com/77795295/107211101-606bf280-6a05-11eb-99d9-09d11e9fd51a.png" width="600">
+<img src="https://user-images.githubusercontent.com/77795295/107211101-606bf280-6a05-11eb-99d9-09d11e9fd51a.png" width="500">
 
 ### Step 9: Unmolding
 
 Before unmolding the bust it is best to let it cure for a couple of days. Even then the outside is slightly damp. This is why it is advised to give the bust another 1-2 days after unmolding to dry out more. The resulting bust can be seen in the following figure.
 
-<img src="https://user-images.githubusercontent.com/44895720/90980165-09a75500-e55a-11ea-8721-b6d557fc9c75.jpg" height="600">
+<img src="https://user-images.githubusercontent.com/44895720/90980165-09a75500-e55a-11ea-8721-b6d557fc9c75.jpg" height="450">
 
 ### Step 10: Marking the interactive parts on the outside of the bust
 
@@ -172,20 +172,20 @@ This is an optional step but the authors decided to mark the interactive parts o
 
 The following figure shows all of these three resulting busts alongside the original plaster bust which got provided by the Staatliche Antikensammlungen.
 
-<img src="https://user-images.githubusercontent.com/44895720/93712286-364c8d80-fb55-11ea-85a3-dc2aeb6e2aad.jpeg" width="600">
+<img src="https://user-images.githubusercontent.com/44895720/93712286-364c8d80-fb55-11ea-85a3-dc2aeb6e2aad.jpeg" width="500">
 
 ### Step 11: Mounting the bust
 
 This is another optional step but for this project the authors decided to mount the bust onto a box to properly display it. The first goal was that users can comfortably interact with the bust and the second goal was that all of the electronic parts could be hidden so that users don’t see any cables etc. hanging around. The solution was to build a wooden box which can be seen in the following figure.
 
-<img src="https://user-images.githubusercontent.com/44895720/93352593-4b66ab00-f83b-11ea-9128-100c20a867e2.png" height="600">
+<img src="https://user-images.githubusercontent.com/44895720/93352593-4b66ab00-f83b-11ea-9128-100c20a867e2.png" height="450">
 
 The idea is that the bust gets placed on the right hand side while all of the cables get fed through the two bigger holes on the right. Through a wooden cross that got attached to the back side of the bust with tile adhesive (see following picture) it can be mounted onto the slated board using the small hole that got drilled inside of it and with the help of a screw and a nut.
 
-<img src="https://user-images.githubusercontent.com/44895720/93353136-dd6eb380-f83b-11ea-9e46-0a1e77b583e4.jpeg" height="600">
+<img src="https://user-images.githubusercontent.com/44895720/93353136-dd6eb380-f83b-11ea-9e46-0a1e77b583e4.jpeg" height="450">
 
 On the left hand side of the box the e-paper display gets placed and the cables can be routed to the back side of the box through a hole that has been cut into the slated board. This made it possible to neatly display the bust for users who can then easily interact with it.
 
 The following figure shows the back side of the wooden box with a few annotations regarding the different parts of the setup.
 
-<img src="https://user-images.githubusercontent.com/44895720/93712582-1b7b1880-fb57-11ea-89fd-a89a14a0410d.jpeg" width="600">
+<img src="https://user-images.githubusercontent.com/44895720/93712582-1b7b1880-fb57-11ea-89fd-a89a14a0410d.jpeg" width="500">
