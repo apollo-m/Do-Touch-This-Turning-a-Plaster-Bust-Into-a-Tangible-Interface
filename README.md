@@ -154,7 +154,7 @@ The last step regarding the creation of the bust itself is to add the second lay
 
 The next figure shows an updated version of the schematic drawing from earlier. For this example, just two sensors are shown. The left one has a layer of gauze under it to give more stability while the right one is just left as is. It can also be seen that the layer of Moltofill got added to the drawing. This is the layer under the second plaster layer.
 
-<img src="https://user-images.githubusercontent.com/44895720/93712483-74967c80-fb56-11ea-84f2-71814af065ef.png" width="600">
+<img src="https://user-images.githubusercontent.com/77795295/107211101-606bf280-6a05-11eb-99d9-09d11e9fd51a.png" width="600">
 
 ### Step 9: Unmolding
 
