@@ -166,9 +166,9 @@ Before unmolding the bust it is best to let it cure for a couple of days. Even t
 
 This is an optional step but the authors decided to mark the interactive parts on the outside of the bust because it was important in the scope of the paper. The authors decided to use watercolor which just got applied onto the outside of the bust using either a brush. The only thing one has to pay attention to is that the brush is not too wet when applying the watercolor. Otherwise, the color runs off, ruining the bust. A skin-colored watercolor was used for the interactive parts on the face while a brown color was used for the hair part. An alternative way to get colored markings is to make the plaster itself colored on certain parts in step 3 by mixing one batch with wall color so that one has two batches: The normal plaster one and the colored one. The issue is that this makes it way harder when trying to evenly distribute the plaster to get the thin first layer because one has to pay attention to not inadvertently mixing these two parts.
 
-The following figure shows a participant interacting with the bust.
+The following figure shows the resulting bust.
 
-<img src="https://user-images.githubusercontent.com/77795295/107384111-f3825680-6af1-11eb-8236-c3bc30382b46.png" width="500">
+<img src="https://user-images.githubusercontent.com/77795295/107773572-2751bc00-6d3e-11eb-9994-1b8d03c3e3c5.jpeg" width="500">
 
 ### Step 11: Mounting the bust
 
@@ -178,10 +178,10 @@ This is another optional step but for this project, the authors decided to mount
 
 The idea is that the bust gets placed on the right-hand side while all of the cables get fed through the two bigger holes on the right. Through a wooden cross that got attached to the backside of the bust with tile adhesive (see the following picture) it can be mounted onto the slated board using the small hole that got drilled inside of it and with the help of a screw and a nut.
 
-<img src="https://user-images.githubusercontent.com/44895720/93353136-dd6eb380-f83b-11ea-9e46-0a1e77b583e4.jpeg" height="450">
+<img src="https://user-images.githubusercontent.com/77795295/107773963-b1018980-6d3e-11eb-8281-c11caa6da439.jpg" height="450">
 
 On the left-hand side of the box the e-paper display gets placed and the cables can be routed to the backside of the box through a hole that has been cut into the slated board. This made it possible to neatly display the bust for users who can then easily interact with it.
 
 The following figure shows the backside of the wooden box with a few annotations regarding the different parts of the setup.
 
-<img src="https://user-images.githubusercontent.com/44895720/93712582-1b7b1880-fb57-11ea-89fd-a89a14a0410d.jpeg" width="500">
+<img src="https://user-images.githubusercontent.com/77795295/107774056-d0001b80-6d3e-11eb-97b1-6b6a262a279e.jpg" width="500">
