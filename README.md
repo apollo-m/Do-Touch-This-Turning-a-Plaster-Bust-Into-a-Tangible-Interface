@@ -61,7 +61,7 @@ Here are some general tips on working with capacitive sensors that the authors f
 
 * The thinner the plaster layer that covers the sensors is, the better (the thickness shouldn't exceed 5 mm).
 * The sensors should be placed as far apart from each other as possible.
-* The sensor's shouldn't be too tiny. Making them a little bit bigger can already make a huge difference. Coin-shaped sensors with a diameter of about 2.5 cm worked quite well.
+* The sensor's shouldn't be too tiny. Making them a little bit bigger can already make a huge difference. Coin-shaped sensors with a diameter of about 2.5 cm worked well.
 * It isn't advisable to bundle a bunch of cables together with cable ties. The sensors are still usable but the value differences when the sensors are touched versus when they aren't touched become smaller then.
 * It is very important to make the connection of the sensors to the MPR121 as direct as possible. The authors tried to use a D-sub connector to connect the sensors of the final bust to the MPR121 to tidy the connections up a bit but that didn't turn out well: The value range (untouched vs. touched) became way smaller then. Apparently, the connector reduces the capacitive signal. When using a D-sub connector between the MPR121 and the Arduino (as the authors also did) that's no problem.
 
