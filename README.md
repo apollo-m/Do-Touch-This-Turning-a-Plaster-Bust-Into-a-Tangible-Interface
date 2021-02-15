@@ -8,6 +8,7 @@ This readme contains a summary of the prototyping work that was done for the pap
 #### 2. Capacitive Sensing
 #### 3. Output Modalities
 #### 4. Creation of the Prototype of the Interactive Bust
+#### 5. Limitations
 
 ## 1. Silicone Mold From the Bust
 
@@ -177,3 +178,7 @@ On the left-hand side of the box the e-paper display got placed and the cables c
 The following figure shows the backside of the wooden box with a few annotations regarding the different parts of the setup.
 
 <img src="https://user-images.githubusercontent.com/77795295/107774056-d0001b80-6d3e-11eb-97b1-6b6a262a279e.jpg" width="500">
+
+## 5. Limitations
+
+Our prototype was a first step toward an interactive plaster bust, including the material exploration and our implementation requiring further iterations. We discovered that for very curved surfaces like the lips it sometimes took a few tries before the system registered an interaction. Furthermore, our sensors have to be embedded between multiple layers to assure a stable signal and structural integrity, which requires a replacement of the whole bust when one sensor breaks. Further exploration would be necessary to improve our technical solution and to make the hardware maintainable.
