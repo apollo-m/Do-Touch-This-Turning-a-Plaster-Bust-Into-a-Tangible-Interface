@@ -122,25 +122,25 @@ The next step was to add the sensors. The authors decided to use copper foil for
 
 ### Step 5: Adding the hot glue
 
-Then follows the isolating layer. The authors chose to use hot glue for this purpose. The hot glue doesn't need to be applied everywhere but just on a rectangle that covers all of the sensors. It would probably be even enough when just the sensors get covered although this did not explicitly get tested. During this step, one has to pay attention that every part of the sensors is covered so that there are no holes in the hot glue layer. Otherwise, there can be a short circuit later on due to the grounding layer (that now follows) being in contact with the sensors. The result of this step can be seen in the following figure.
+Then followed the isolating layer. The authors chose to use hot glue for this purpose. The hot glue doesn't need to be applied everywhere but just on a rectangle that covers all of the sensors. It would probably be even enough when just the sensors get covered although this did not explicitly get tested. During this step, one has to pay attention that every part of the sensors is covered so that there are no holes in the hot glue layer. Otherwise, there can be a short circuit later on due to the grounding layer (that now follows) being in contact with the sensors. The result of this step can be seen in the following figure.
 
 <img src="https://user-images.githubusercontent.com/44895720/90979736-6f461200-e557-11ea-9d59-ec8756725c11.jpg" height="450">
 
 ### Step 6: Adding the grounding layer
 
-The next step is to add the grounding layer. Again, the authors chose the copper foil for that. The grounding layer is important to improve the results of the capacitive sensing. As with the hot glue, the grounding foil got applied in a rectangle that covers all sensors. Then a cable needs to be soldered to this layer. The next figure shows the result of this step. Note: The picture got taken before this wire got added.
+The next step was to add the grounding layer. Again, the authors chose the copper foil for that. The grounding layer is important to improve the results of the capacitive sensing. As with the hot glue, the grounding foil got applied in a rectangle that covers all sensors. Then a cable needs to be soldered to this layer. The next figure shows the result of this step. Note: The picture got taken before this wire got added.
 
 <img src="https://user-images.githubusercontent.com/44895720/90979905-4eca8780-e558-11ea-9270-7024f56e728f.jpg" height="450">
 
 ### Step 7: Adding the "Moltofill"
 
-This is a step that is not absolutely necessary but it's best to do. This step involves applying a layer of Moltofill. The reason is the following: Liquid plaster doesn't combine well with already cured plaster and it also expands when drying so the problem is that the second plaster layer might cause the first one to crack a bit because it expands a little bit. So the idea is to apply a thin layer of Moltofill before applying the second plaster layer. The Moltofill should be slightly dried but not all the way before the second plaster layer gets poured so that it combines well. The following figure shows the result after adding the Moltofill and letting it slightly dry.
+This is a step that is not absolutely necessary but it's best to do. This step involved applying a layer of Moltofill. The reason is the following: Liquid plaster doesn't combine well with already cured plaster and it also expands when drying so the problem is that the second plaster layer might cause the first one to crack a bit because it expands a little bit. So the idea is to apply a thin layer of Moltofill before applying the second plaster layer. The Moltofill should be slightly dried but not all the way before the second plaster layer gets poured so that it combines well. The following figure shows the result after adding the Moltofill and letting it slightly dry.
 
 <img src="https://user-images.githubusercontent.com/44895720/90980025-1d9e8700-e559-11ea-8cb6-1be0be3214f3.jpg" height="450">
 
 ### Step 8: Adding the last layer of plaster
 
-The last step regarding the creation of the bust itself is to add the second layer of plaster. This layer can basically be as thick as one wants to give enough structural stability to the bust. The next figure shows the result.
+The last step regarding the creation of the bust itself was to add the second layer of plaster. This layer can basically be as thick as one wants to give enough structural stability to the bust. The next figure shows the result.
 
 <img src="https://user-images.githubusercontent.com/44895720/90980130-cb119a80-e559-11ea-85d0-3b55a79fdc10.jpg" height="450">
 
@@ -168,7 +168,7 @@ This is another optional step but for this project, the authors decided to mount
 
 <img src="https://user-images.githubusercontent.com/44895720/93352593-4b66ab00-f83b-11ea-9128-100c20a867e2.png" height="450">
 
-The idea is that the bust gets placed on the right-hand side while all of the cables get fed through the two bigger holes on the right. Through a wooden cross that got attached to the backside of the bust with tile adhesive (see the following picture) it can be mounted onto the slated board using the small hole that got drilled inside of it and with the help of a screw and a nut.
+The idea was that the bust gets placed on the right-hand side while all of the cables get fed through the two bigger holes on the right. Through a wooden cross that got attached to the backside of the bust with tile adhesive (see the following picture) it can be mounted onto the slated board using the small hole that got drilled inside of it and with the help of a screw and a nut.
 
 <img src="https://user-images.githubusercontent.com/77795295/107773963-b1018980-6d3e-11eb-8281-c11caa6da439.jpg" height="450">
 
