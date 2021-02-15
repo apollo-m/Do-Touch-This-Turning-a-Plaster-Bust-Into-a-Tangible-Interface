@@ -104,7 +104,7 @@ Then some plaster got mixed with warm water (in a ratio of 1.5:1). It's importan
 
 Then the plaster got applied in a thin layer of about 1-2 mm thickness. It helps when the mold gets tilted around a bit and when a brush gets used to get the plaster into every nook and cranny of the silicone mold. It's very important that the first layer of plaster doesn't exhibit any holes.
 
-**Notes about the thickness of the plaster:** It makes a huge difference how thick this first layer is. It's important to make it as thin as possible because that helps with the capacitive sensing but when making it too thin the risk is that parts of the bust break off during the unmolding process. When making the layer too thick the capacitance can't properly get through the layer later on. A thickness of about 1-2 mm works best.
+**Notes about the thickness of the plaster layer:** It makes a huge difference how thick this first layer is. It's important to make it as thin as possible because that helps with the capacitive sensing but when making it too thin the risk is that parts of the bust break off during the unmolding process. When making the layer too thick the capacitance can't properly get through the layer later on. A thickness of about 1-2 mm works best.
 
 Before the plaster dried the authors used some gauze and pressed it into the parts of the nose and lips. The reason is that the first prototypes exhibited some structural weaknesses in these areas and the gauze helps to add some more stability to these parts. There are a few things to note:
 * The gauze must not be pressed down into the plaster too hard. Otherwise, it will be seen on the outside of the bust later on. It just has to be gently pressed into the viscous plaster.
