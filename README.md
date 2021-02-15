@@ -71,8 +71,8 @@ Finally, we added a calibration phase at the start to further improve our result
 
 The next task was figuring out how exactly the output should be presented once a potential visitor interacts with the bust. The authors decided to use two different forms of output:
 
-* Audio
-* A display
+* audio
+* a display
 
 So now the next step was to formulate some short texts for each of the five different scenarios (information about the foundation of the museum, information regarding the person's wife, etc.). Then these texts got recorded as audio recordings (.mp3 format) and stored onto a microSD card. To play these recordings using an Arduino the "DFPlayer Mini MP3 Player For Arduino" was used. This is a small MP3 module with a built-in microSD card reader that can output directly to a speaker. It even features a digital-to-analog converter (DAC). Before being able to use it it's necessary to install the "DFRobotDFPlayerMini" library for the Arduino. As a speaker, a simple 8 Ω speaker was used. The following figure shows a wiring diagram for a setup that involves the MP3 player and a speaker.
 
