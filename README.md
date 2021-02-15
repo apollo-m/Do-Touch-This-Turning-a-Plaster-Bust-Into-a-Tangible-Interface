@@ -11,7 +11,7 @@ This readme contains a summary of the prototyping work that was done for the pap
 
 ## 1. Silicone Mold From the Bust
 
-In this section, it will be described how a silicone mold was created from the original bust from the museum and how it was used to make further plaster castings.
+In this section, it will be described how a silicone mold was created from the original bust from the museum. This mold got used to make the plaster castings.
 
 The first step was to cut out a base plate (in this case made out of wood) where the head can rest on. To fixate the head onto the board and to prevent any silicone from leaking under the head before it fully cures Plasticine (a sort of modeling clay) was used. In order for it to be malleable, it was put in the microwave for a short period of time which made working with it way easier. Then the clay was used to seal all of the crevices between the head and the base plate (see figure below).
 
