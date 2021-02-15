@@ -156,7 +156,7 @@ Before unmolding the bust it's best to let it cure for a couple of days. Even th
 
 ### Step 10: Marking the interactive parts on the outside of the bust
 
-This was an optional step but the authors marked the interactive parts on the outside of the bust because it was important in the scope of the paper. The authors decided to use watercolors which got applied onto the outside of the bust using a brush. The only thing one has to pay attention to is that the brush is not too wet when applying the watercolor. Otherwise, the color runs off, ruining the bust. A skin-colored watercolor was used for the interactive parts on the face while a brown color was used for the hair part.
+This was an optional step but the authors marked the interactive parts on the outside of the bust because it was important in the scope of the paper. The authors decided to use watercolors which got applied onto the outside of the bust using a brush. The only thing one has to pay attention to is that the brush is not too wet when applying the watercolors. Otherwise, the colors run off, ruining the bust. A skin-colored watercolor was used for the interactive parts on the face while a brown color was used for the hair part.
 
 The following figure shows the resulting bust.
 
