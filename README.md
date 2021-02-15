@@ -69,7 +69,7 @@ Finally, we added a calibration phase at the start to further improve our result
 
 ## 3. Output Modalities
 
-The next task was figuring out how exactly the output should be presented once a potential visitor interacts with the statue. The authors decided to use two different forms of output:
+The next task was figuring out how exactly the output should be presented once a potential visitor interacts with the bust. The authors decided to use two different forms of output:
 
 * Audio
 * A display
