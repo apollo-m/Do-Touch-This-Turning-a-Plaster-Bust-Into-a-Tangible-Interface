@@ -134,7 +134,7 @@ The next step was to add the grounding layer. Again, the authors chose the coppe
 
 ### Step 7: Adding the "Moltofill"
 
-This was a step that is not absolutely necessary but it's best to do. This step involved applying a layer of Moltofill. The reason is the following: Liquid plaster doesn't combine well with already cured plaster and it also expands when drying so the problem is that the second plaster layer might cause the first one to crack a bit because it expands a little bit. So the idea is to apply a thin layer of Moltofill before applying the second plaster layer. The Moltofill should be slightly dried but not all the way before the second plaster layer gets poured so that it combines well. The following figure shows the result after adding the Moltofill and letting it slightly dry.
+This step involved applying a layer of Moltofill. The reason is the following: Liquid plaster doesn't combine well with already cured plaster and it also expands when drying so the problem is that the second plaster layer might cause the first one to crack a bit because it expands a little bit. So the idea is to apply a thin layer of Moltofill before applying the second plaster layer. The Moltofill should be slightly dried but not all the way before the second plaster layer gets poured so that it combines well. The following figure shows the result after adding the Moltofill and letting it slightly dry.
 
 <img src="https://user-images.githubusercontent.com/44895720/90980025-1d9e8700-e559-11ea-8cb6-1be0be3214f3.jpg" height="450">
 
