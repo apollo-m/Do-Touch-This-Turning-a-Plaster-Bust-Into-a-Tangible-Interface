@@ -140,11 +140,11 @@ This step involved applying a layer of Moltofill. The reason is the following: L
 
 ### Step 8: Adding the last layer of plaster
 
-The last step regarding the creation of the bust itself was to add the second layer of plaster. This layer can basically be as thick as one wants to give enough structural stability to the bust. The next figure shows the result.
+The last step regarding the creation of the bust itself was to add the second layer of plaster. This layer can basically be as thick as one wants to give enough structural stability to the bust. To make the process a bit easier a wooden frame in the shape of the contour of the silicone mold was used which got placed on top of the mold and which had overlapping edges to the inside (around 1 cm) as a guide to achieve even plaster thickness. The next figure shows the result.
 
 <img src="https://user-images.githubusercontent.com/44895720/90980130-cb119a80-e559-11ea-85d0-3b55a79fdc10.jpg" height="450">
 
-The next figure shows an updated version of the schematic drawing from earlier. For this example, just two sensors are shown. The left one has a layer of gauze under it to give more stability while the right one is just left as is. It can also be seen that the layer of Moltofill got added to the drawing. This is the layer under the second plaster layer.
+The following figure shows a schematic drawing of all of the different layers. For this example, just two sensors are shown. The left one has a layer of gauze under it to give more stability while the right one is just left as is (to depict the two approaches that are present in the bust). The gaps in the sketch are only for visibility pueposes.
 
 <img src="https://user-images.githubusercontent.com/77795295/107211101-606bf280-6a05-11eb-99d9-09d11e9fd51a.png" width="500">
 
