@@ -59,7 +59,7 @@ To be able to program the chip there is the "Adafruit_MPR121" library that has t
 
 Here are some general tips on working with capacitive sensors that the authors found out:
 
-* The thinner the plaster layer that covers the sensors is, the better (the thickness shouldn't exceed 5 mm).
+* The thinner the outer plaster layer that covers the sensors is, the better (the thickness shouldn't exceed 5 mm).
 * The sensors should be placed as far apart from each other as possible.
 * The sensor's shouldn't be too tiny. Making them a little bit bigger can already make a huge difference. Coin-shaped sensors with a diameter of about 2.5 cm worked well.
 * It isn't advisable to bundle a bunch of cables together with cable ties. The sensors are still usable but the value differences when the sensors are touched versus when they aren't touched become smaller then.
