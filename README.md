@@ -168,11 +168,11 @@ This was another optional step but for this project, the authors decided to moun
 
 <img src="https://user-images.githubusercontent.com/44895720/93352593-4b66ab00-f83b-11ea-9128-100c20a867e2.png" height="450">
 
-The idea was that the bust gets placed on the right-hand side while all of the cables get fed through the two bigger holes on the right. Through a wooden cross that got attached to the backside of the bust with tile adhesive (see the following picture) it can be mounted onto the slated board using the small hole that got drilled inside of it and with the help of a screw and a nut.
+The idea was that the bust gets placed on the right-hand side while all of the cables get fed through the two bigger holes on the right. Through a wooden cross that got attached to the backside of the bust with tile adhesive (see the following picture) it could be mounted onto the slated board using the small hole that got drilled inside of it and with the help of a screw and a nut.
 
 <img src="https://user-images.githubusercontent.com/77795295/107773963-b1018980-6d3e-11eb-8281-c11caa6da439.jpg" height="450">
 
-On the left-hand side of the box the e-paper display gets placed and the cables can be routed to the backside of the box through a hole that has been cut into the slated board. This made it possible to neatly display the bust for users who can then easily interact with it.
+On the left-hand side of the box the e-paper display got placed and the cables could be routed to the backside of the box through a hole that has been cut into the slated board. This made it possible to neatly display the bust for users who can then easily interact with it.
 
 The following figure shows the backside of the wooden box with a few annotations regarding the different parts of the setup.
 
