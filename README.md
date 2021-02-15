@@ -38,7 +38,7 @@ The next step was to unmold the head. In some parts, the head was a bit difficul
 
 This section will describe how the capacitive sensing capabilities have been built, what materials have been used etc.
 
-For this project, an "ARDUINO UNO REV3" which got powered through a Laptop via USB got used for programming. There’s a "Capacitive Sensing Library" for Arduino that can turn two or more Arduino pins into a capacitive sensor with the help of copper foils and resistors. These sensors can then sense the electrical capacitance of the human body. There are also dedicated sensors available that can be bought but the approach with the copper foils offers two important advantages:
+For this project, an "ARDUINO UNO REV3" which got powered through a Laptop via USB got used for programming. There’s a "Capacitive Sensing Library" for Arduino that can turn two or more Arduino pins into a capacitive sensor with the help of copper foils and resistors (https://playground.arduino.cc/Main/CapacitiveSensor/). These sensors can then sense the electrical capacitance of the human body. There are also dedicated sensors available that can be bought but the approach with the copper foils offers two important advantages:
 
 * They are much slimmer and their size can be adjusted because one can just cut a sensor into the desired size and shape.
 * They offer more customization on the software side so that the sensors can be programmed exactly the way which is best suited for the particular project.
