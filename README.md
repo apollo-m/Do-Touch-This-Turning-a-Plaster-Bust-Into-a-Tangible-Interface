@@ -86,7 +86,7 @@ As display the authors chose an e-paper display. E-paper displays (like their na
 
 In this chapter, it will be described step-by-step how the final prototype of the interactive bust was created. Alongside, some tips will be shared as well as things to pay attention to. The final code for this prototype can be found under "codes/interactive_bust.ino".
 
-### Step 1: Mark the positions of the sensors
+### Step 1: Marking the positions of the sensors
 
 This first step is sort of a pre-step to the actual creation of the bust. Depending on the specific needs for the project it's not absolutely necessary. When the exact placement of the sensors is not crucial one can omit this step. But in this particular project, the exact placement is very important. The reason why it's then necessary to mark the positions of the sensors beforehand is the following: Once the first layer of plaster gets poured the small details in the silicone mold can't be properly seen anymore. The solution that was found involves a laser pointer mounted on a wooden plank. A wooden plank was cut and a hole got drilled inside of it so that a laser pointer could fit into it. Then this plank got placed on top of the silicone mold and moved around to the different spots so that at each position the laser pointer pointed at the exact position where a copper pad should be. Then the respective positions got marked on the plank and also on the silicone mold. This can be seen in the following figure.
 
@@ -96,7 +96,7 @@ This first step is sort of a pre-step to the actual creation of the bust. Depend
 
 The next step was to prepare the silicone mold. The product that was used is called "HINRISID Oberflächenentspanner auf Tensidbasis" which is a leveling agent thus improving the surface of the bust. When using it the surface of the bust gets a bit smoother because the plaster gets dispersed more evenly. To apply the product it's best when it gets mixed with a little bit of water and then applied onto the inside of the silicone mold using a brush. Then it has to dry for about 2 minutes and then one has to fan it dry. The authors used some kitchen roll to dab dry the parts which had a bit of excess liquid.
 
-### Step 3: Apply the first layer of plaster
+### Step 3: Applying the first layer of plaster
 
 Then some plaster got mixed with warm water (in a ratio of 1.5:1). It's important to pour the plaster into the water and not vice versa to avoid any clumping. Then it has to be mixed properly until smooth.
 
