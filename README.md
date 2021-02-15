@@ -94,7 +94,7 @@ This first step is sort of a pre-step to the actual creation of the bust. Depend
 
 ### Step 2: Preparation of the silicone mold
 
-The next step was to prepare the silicone mold. While at first, the authors used some anti-sticking spray so that the dried plaster doesn't stick to the silicone the authors later found out that this is not necessary because the silicone itself has a surface that makes sure that the plaster doesn't stick to it. But there's one product that improves the surface of the final bust a bit and that is a leveling agent. The specific product that got used is called "HINRISID Oberflächenentspanner auf Tensidbasis". When using it the surface of the bust gets a bit smoother because the plaster gets dispersed more evenly. To apply the product it's best when it gets mixed with a little bit of water and then applied onto the inside of the silicone mold using a brush. Then it has to dry for about 2 minutes and then one has to fan it dry. The authors used some kitchen roll to dab dry the parts which had a bit of excess liquid.
+The next step was to prepare the silicone mold. The product that was used is called "HINRISID Oberflächenentspanner auf Tensidbasis" which is a leveling agent thus improving the surface of the final bust. When using it the surface of the bust gets a bit smoother because the plaster gets dispersed more evenly. To apply the product it's best when it gets mixed with a little bit of water and then applied onto the inside of the silicone mold using a brush. Then it has to dry for about 2 minutes and then one has to fan it dry. The authors used some kitchen roll to dab dry the parts which had a bit of excess liquid.
 
 ### Step 3: Apply the first layer of plaster
 
