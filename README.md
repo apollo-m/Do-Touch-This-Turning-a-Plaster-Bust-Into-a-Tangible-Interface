@@ -134,7 +134,7 @@ The next step was to add the grounding layer. Again, the authors chose the coppe
 
 ### Step 7: Adding the "Moltofill"
 
-This is a step that is not absolutely necessary but it's best to do. This step involved applying a layer of Moltofill. The reason is the following: Liquid plaster doesn't combine well with already cured plaster and it also expands when drying so the problem is that the second plaster layer might cause the first one to crack a bit because it expands a little bit. So the idea is to apply a thin layer of Moltofill before applying the second plaster layer. The Moltofill should be slightly dried but not all the way before the second plaster layer gets poured so that it combines well. The following figure shows the result after adding the Moltofill and letting it slightly dry.
+This was a step that is not absolutely necessary but it's best to do. This step involved applying a layer of Moltofill. The reason is the following: Liquid plaster doesn't combine well with already cured plaster and it also expands when drying so the problem is that the second plaster layer might cause the first one to crack a bit because it expands a little bit. So the idea is to apply a thin layer of Moltofill before applying the second plaster layer. The Moltofill should be slightly dried but not all the way before the second plaster layer gets poured so that it combines well. The following figure shows the result after adding the Moltofill and letting it slightly dry.
 
 <img src="https://user-images.githubusercontent.com/44895720/90980025-1d9e8700-e559-11ea-8cb6-1be0be3214f3.jpg" height="450">
 
@@ -156,7 +156,7 @@ Before unmolding the bust it's best to let it cure for a couple of days. Even th
 
 ### Step 10: Marking the interactive parts on the outside of the bust
 
-This is an optional step but the authors decided to mark the interactive parts on the outside of the bust because it was important in the scope of the paper. The authors decided to use watercolor which just got applied onto the outside of the bust using either a brush. The only thing one has to pay attention to is that the brush is not too wet when applying the watercolor. Otherwise, the color runs off, ruining the bust. A skin-colored watercolor was used for the interactive parts on the face while a brown color was used for the hair part. An alternative way to get colored markings is to make the plaster itself colored on certain parts in step 3 by mixing one batch with wall color so that one has two batches: The normal plaster one and the colored one. The issue is that this makes it way harder when trying to evenly distribute the plaster to get the thin first layer because one has to pay attention to not inadvertently mixing these two parts.
+This was an optional step but the authors decided to mark the interactive parts on the outside of the bust because it was important in the scope of the paper. The authors decided to use watercolor which just got applied onto the outside of the bust using either a brush. The only thing one has to pay attention to is that the brush is not too wet when applying the watercolor. Otherwise, the color runs off, ruining the bust. A skin-colored watercolor was used for the interactive parts on the face while a brown color was used for the hair part. An alternative way to get colored markings is to make the plaster itself colored on certain parts in step 3 by mixing one batch with wall color so that one has two batches: The normal plaster one and the colored one. The issue is that this makes it way harder when trying to evenly distribute the plaster to get the thin first layer because one has to pay attention to not inadvertently mixing these two parts.
 
 The following figure shows the resulting bust.
 
@@ -164,7 +164,7 @@ The following figure shows the resulting bust.
 
 ### Step 11: Mounting the bust
 
-This is another optional step but for this project, the authors decided to mount the bust onto a box to properly display it. The first goal was that users can comfortably interact with the bust and the second goal was that all of the electronic parts could be hidden so that users don’t see any cables etc. hanging around. The solution was to build a wooden box which can be seen in the following figure.
+This was another optional step but for this project, the authors decided to mount the bust onto a box to properly display it. The first goal was that users can comfortably interact with the bust and the second goal was that all of the electronic parts could be hidden so that users don’t see any cables etc. hanging around. The solution was to build a wooden box which can be seen in the following figure.
 
 <img src="https://user-images.githubusercontent.com/44895720/93352593-4b66ab00-f83b-11ea-9128-100c20a867e2.png" height="450">
 
