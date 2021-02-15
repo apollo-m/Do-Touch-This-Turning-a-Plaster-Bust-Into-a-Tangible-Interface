@@ -98,7 +98,7 @@ The next step was to prepare the silicone mold. The product that was used is cal
 
 ### Step 3: Apply the first layer of plaster
 
-Then some plaster got mixed with water (in a ratio of 1.5:1). It's important to pour the plaster into the water and not vice versa to avoid any clumping. Then it has to be mixed properly until smooth.
+Then some plaster got mixed with warm water (in a ratio of 1.5:1). It's important to pour the plaster into the water and not vice versa to avoid any clumping. Then it has to be mixed properly until smooth.
 
 **Notes about different types of plaster:** Something very important is that there are multiple types of plaster available. While a basic plaster which can be found in any hardware store works it doesn't yield the best results. Using gypseous alabaster brings three advantages: Firstly, it's easier to work with it since it cures more slowly. So once the plaster and the water get mixed the amount of time when the plaster is viscous is much longer. Secondly, it becomes much harder. This helps with the structural integrity of the bust. And lastly, the color is different: While the basic plaster is a bit grayish, the gypseous alabaster is more white.
 
