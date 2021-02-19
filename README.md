@@ -167,7 +167,7 @@ The following figure shows the resulting bust.
 
 This was another optional step but for this project, the authors decided to mount the bust onto a box to properly display it. The first goal was that users can comfortably interact with the bust and the second goal was that all of the electronic parts could be hidden so that users don’t see any cables etc. hanging around. The solution was to build a wooden box which can be seen in the following figure.
 
-<img src="https://user-images.githubusercontent.com/44895720/93352593-4b66ab00-f83b-11ea-9128-100c20a867e2.png" height="450">
+<img src="https://user-images.githubusercontent.com/77795295/108492196-258b7980-72a5-11eb-9ec3-75ecc3e3c553.jpeg" height="450">
 
 The idea was that the bust gets placed on the right-hand side while all of the cables get fed through the two bigger holes on the right. Through a wooden cross that got attached to the backside of the bust with tile adhesive (see the following picture) it could be mounted onto the slated board using the small hole that got drilled inside of it and with the help of a screw and a nut.
 
