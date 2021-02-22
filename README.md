@@ -129,7 +129,7 @@ Then followed the isolating layer. The authors chose to use hot glue for this pu
 
 ### Step 6: Adding the grounding layer
 
-The next step was to add the grounding layer. Again, the authors chose the copper foil for that. The grounding layer is important to improve the results of the capacitive sensing. As with the hot glue, the grounding foil got applied in a rectangle that covers all sensors. Then a cable needs to be soldered to this layer. The next figure shows the result of this step. Note: The picture got taken before this wire got added.
+The next step was to add the grounding layer. Again, the authors chose copper foil for that. The grounding layer is important to improve the results of the capacitive sensing. As with the hot glue, the grounding foil got applied in a rectangle that covers all sensors. Then a cable needs to be soldered to this layer. The next figure shows the result of this step. Note: The picture got taken before this wire got added.
 
 <img src="https://user-images.githubusercontent.com/44895720/90979905-4eca8780-e558-11ea-9270-7024f56e728f.jpg" height="450">
 
