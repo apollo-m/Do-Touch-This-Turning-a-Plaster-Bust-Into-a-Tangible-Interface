@@ -37,7 +37,7 @@ The next step was to unmold the head. In some parts, the head was a bit difficul
 
 ## 2. Capacitive Sensing
 
-This section will describe how the capacitive sensing capabilities have been built, what materials have been used, etc.
+This section will describe how the capacitive sensing capabilities were built, what materials were used, etc.
 
 For this project, an "ARDUINO UNO REV3" which was powered through a Laptop via USB was used for programming. There’s a "Capacitive Sensing Library" for Arduino that can turn two or more Arduino pins into a capacitive sensor with the help of copper foils and resistors (https://playground.arduino.cc/Main/CapacitiveSensor/). These sensors can then sense the electrical capacitance of the human body. There are also dedicated sensors available that can be bought but the approach with the copper foils offers two important advantages:
 
@@ -48,7 +48,7 @@ The following figure shows how such pieces of copper foil can look like.
 
 <img src="https://user-images.githubusercontent.com/44895720/90331894-82d20580-dfb8-11ea-8128-0a94e7270aa5.jpeg" width="500">
 
-Because the capacitive signal can pass through various types of materials (including plastic, wood, or in this case plaster) the sensors are invisible in the end because they are placed behind the respective material. To detect swipe gestures the authors decided to use two sensors (in this example called "A" and "B"). When a swipe from "A" to "B" should be detected one just has to register the times when the sensors have been touched and see if the time difference is under a certain threshold which one has to define beforehand.
+Because the capacitive signal can pass through various types of materials (including plastic, wood, or in this case plaster) the sensors are invisible in the end because they are placed behind the respective material. To detect swipe gestures the authors decided to use two sensors (in this example called "A" and "B"). When a swipe from "A" to "B" should be detected one just has to register the times when the sensors are touched and see if the time difference is under a certain threshold which one has to define beforehand.
 
 Through some basic tests, we found out that an additional copper foil layer (which was connected to a ground pin of the Arduino) should be placed behind the sensors to improve the signal quality. To avoid a short circuit a layer of hot glue which acts as an isolating layer was used between the two layers. However, still, the system was too unstable and the signal-to-noise ratio was too bad because of the capacitive signal inadvertently spreading throughout the plaster even when it's fully dried. This means that Arduino's built-in capacitive sensing capabilities aren't suited for this project.
 
@@ -56,7 +56,7 @@ This is why the authors decided to use a different solution. The solution that w
 
 <img src="https://user-images.githubusercontent.com/44895720/90981707-e2a15100-e562-11ea-84c9-8a61558dca98.png" height="450">
 
-To be able to program the chip there is the "Adafruit_MPR121" library that has to be installed. There is a basic program under "codes/capacitive_sensors_mpr121.ino" which outputs which sensor has been touched and released in the serial monitor. The way it works is that this code keeps track of the 12 "bits" for each touch. The sensor measures the capacitance with "counts". There’s a baseline count number that depends on different factors like the temperature or the humidity. When the number changes a significant amount it's considered as a touch or release. To be precise, each sensor has two values: The aforementioned base value ("cap.baselineData(i)") and the current filtered data reading ("cap.filteredData(i)") (i goes from 0 to 11). When the current reading is within 12 counts of the baseline value it's considered that the sensor is not touched. When the reading is more than 12 counts smaller than the baseline value a touch is reported. There’s also the possibility to see if a particular sensor is touched ,e.g., sensor #4: "if (cap.touched() & (1 « 4)) { do something }". There are also commands to get the baseline and filtered data of each sensor ("filteredData(sensornumber);" respectively "baselineData(sensornumber);") so the thresholds (which are 12 in the default setting) can be adjusted to fit the particular project.
+To be able to program the chip there is the "Adafruit_MPR121" library that has to be installed. There is a basic program under "codes/capacitive_sensors_mpr121.ino" which outputs which sensor is touched and released in the serial monitor. The way it works is that this code keeps track of the 12 "bits" for each touch. The sensor measures the capacitance with "counts". There’s a baseline count number that depends on different factors like the temperature or the humidity. When the number changes a significant amount it's considered as a touch or release. To be precise, each sensor has two values: The aforementioned base value ("cap.baselineData(i)") and the current filtered data reading ("cap.filteredData(i)") (i goes from 0 to 11). When the current reading is within 12 counts of the baseline value it's considered that the sensor is not touched. When the reading is more than 12 counts smaller than the baseline value a touch is reported. There’s also the possibility to see if a particular sensor is touched ,e.g., sensor #4: "if (cap.touched() & (1 « 4)) { do something }". There are also commands to get the baseline and filtered data of each sensor ("filteredData(sensornumber);" respectively "baselineData(sensornumber);") so the thresholds (which are 12 in the default setting) can be adjusted to fit the particular project.
 
 Here are some general tips on working with capacitive sensors that the authors found out:
 
@@ -173,7 +173,7 @@ The idea was that the bust is placed on the right-hand side while all of the cab
 
 <img src="https://user-images.githubusercontent.com/77795295/107773963-b1018980-6d3e-11eb-8281-c11caa6da439.jpg" height="450">
 
-On the left-hand side of the box the e-paper display was placed and the cables could be routed to the backside of the box through a hole that has been cut into the slanted board. This made it possible to neatly display the bust for users who can then easily interact with it.
+On the left-hand side of the box the e-paper display was placed and the cables could be routed to the backside of the box through a hole that was drilled into the slanted board. This made it possible to neatly display the bust for users who can then easily interact with it.
 
 The following figure shows the backside of the wooden box with a few annotations regarding the different parts of the setup.
 
