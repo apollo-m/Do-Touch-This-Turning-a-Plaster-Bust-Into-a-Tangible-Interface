@@ -169,7 +169,7 @@ This was another optional step but for this project, the authors decided to moun
 
 <img src="https://user-images.githubusercontent.com/77795295/108492196-258b7980-72a5-11eb-9ec3-75ecc3e3c553.jpeg" height="450">
 
-The idea was that the bust is placed on the right-hand side while all of the cables are fed through one of the two holes on the right. Through a wooden cross that was attached to the backside of the bust with tile adhesive (see the following picture) it could be mounted onto the slanted board using the small hole that was drilled inside of it and with the help of a screw and a nut.
+The idea was that the bust is placed on the right-hand side while all of the cables are fed through one of the two holes on the right. Through a wooden cross that was attached to the backside of the bust with tile adhesive (see the following picture) it could be mounted onto the slanted board using two small holes that were drilled into the cross and the slanted board and with the help of a screw and a nut.
 
 <img src="https://user-images.githubusercontent.com/77795295/107773963-b1018980-6d3e-11eb-8281-c11caa6da439.jpg" height="450">
 
