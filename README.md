@@ -173,7 +173,7 @@ The idea was that the bust is placed on the right-hand side while all of the cab
 
 <img src="https://user-images.githubusercontent.com/77795295/107773963-b1018980-6d3e-11eb-8281-c11caa6da439.jpg" height="450">
 
-On the left-hand side of the box the e-paper display was placed and the cables could be routed to the backside of the box through a hole that was drilled into the slanted board. This made it possible to neatly display the bust for users who can then easily interact with it.
+On the left-hand side of the box the e-paper display was placed and the cables could be routed to the backside of the box through a slit that was cut into the slanted board. This made it possible to neatly display the bust for users who can then easily interact with it.
 
 The following figure shows the backside of the wooden box with a few annotations regarding the different parts of the setup.
 
