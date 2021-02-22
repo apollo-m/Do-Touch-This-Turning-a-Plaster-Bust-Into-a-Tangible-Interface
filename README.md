@@ -103,7 +103,7 @@ Then some plaster got mixed with warm water (in a ratio of 1.5:1). It's importan
 
 **Notes about different types of plaster:** Something very important is that there are multiple types of plaster available. While a basic plaster which can be found in any hardware store works it doesn't yield the best results. Using gypseous alabaster brings three advantages: Firstly, it's easier to work with it since it cures more slowly. So once the plaster and the water get mixed the amount of time when the plaster is viscous is much longer. Secondly, it becomes much harder. This helps with the structural integrity of the bust. And lastly, the color is different: While the basic plaster is a bit grayish, the gypseous alabaster is more white.
 
-Then the plaster got applied in a thin layer of about 1-2 mm thickness. It helps when the mold gets tilted around a bit and when a brush gets used to get the plaster into every nook and cranny of the silicone mold. It's very important that the first layer of plaster doesn't exhibit any holes.
+Then the plaster was applied in a thin layer of about 1-2 mm thickness. It helps when the mold gets tilted around a bit and when a brush gets used to get the plaster into every nook and cranny of the silicone mold. It's very important that the first layer of plaster doesn't exhibit any holes.
 
 **Notes about the thickness of the plaster layer:** It makes a huge difference how thick this first layer is. It's important to make it as thin as possible because that helps with the capacitive sensing but when making it too thin the risk is that parts of the bust break off during the unmolding process. When making the layer too thick the capacitance can't properly get through the layer later on. A thickness of about 1-2 mm works best.
 
@@ -129,7 +129,7 @@ Then followed the isolating layer. The authors chose to use hot glue for this pu
 
 ### Step 6: Adding the grounding layer
 
-The next step was to add the grounding layer. Again, the authors chose copper foil for that. The grounding layer is important to improve the results of the capacitive sensing. As with the hot glue, the grounding foil got applied in a rectangle that covers all sensors. Then a cable needs to be soldered to this layer. The next figure shows the result of this step. Note: The picture got taken before this wire got added.
+The next step was to add the grounding layer. Again, the authors chose copper foil for that. The grounding layer is important to improve the results of the capacitive sensing. As with the hot glue, the grounding foil was applied in a rectangle that covers all sensors. Then a cable needs to be soldered to this layer. The next figure shows the result of this step. Note: The picture got taken before this wire got added.
 
 <img src="https://user-images.githubusercontent.com/44895720/90979905-4eca8780-e558-11ea-9270-7024f56e728f.jpg" height="450">
 
@@ -157,7 +157,7 @@ Before unmolding the bust it's best to let it cure for a couple of days. Even th
 
 ### Step 10: Marking the interactive parts on the outside of the bust
 
-This was an optional step but the authors marked the interactive parts on the outside of the bust because it was important in the scope of the paper. The authors decided to use watercolors which got applied onto the outside of the bust using a brush. The only thing one has to pay attention to is that the brush is not too wet when applying the watercolors. Otherwise, the colors run off, ruining the bust. A skin-colored watercolor was used for the interactive parts on the face while a brown color was used for the hair part.
+This was an optional step but the authors marked the interactive parts on the outside of the bust because it was important in the scope of the paper. The authors decided to use watercolors which were applied onto the outside of the bust using a brush. The only thing one has to pay attention to is that the brush is not too wet when applying the watercolors. Otherwise, the colors run off, ruining the bust. A skin-colored watercolor was used for the interactive parts on the face while a brown color was used for the hair part.
 
 The following figure shows the resulting bust.
 
