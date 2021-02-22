@@ -1,6 +1,6 @@
 # Do Touch This: Turning a Plaster Bust Into a Tangible Interface
 
-This readme contains a summary of the prototyping work that was done for the paper to create the prototype of the plaster bust. Alongside, all of the findings of the authors regarding aspects that one has to pay attention to as well as some dos and don'ts will be shared. The final code can be found under "codes/interactive_bust.ino". One general note: The program "Fritzing" (https://fritzing.org) was used to create the wiring diagrams and some parts ,e.g., the copper pads are custom-made by the authors because they didn't exist pre-made in the program.
+This readme contains a summary of the prototyping work that was done for the paper to create the prototype of the plaster bust. Alongside, all of the findings of the authors regarding aspects that one has to pay attention to as well as some dos and don'ts will be shared. The final code can be found under "codes/interactive_bust.ino". One general note: The program "Fritzing" (https://fritzing.org) was used to create the wiring diagrams and some parts, e.g., the copper pads are custom-made by the authors because they didn't exist pre-made in the program.
 
 ## Table of Contents
 
