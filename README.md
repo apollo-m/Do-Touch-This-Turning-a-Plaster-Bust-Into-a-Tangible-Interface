@@ -123,7 +123,7 @@ The next step was to add the sensors. The authors decided to use copper foil for
 
 ### Step 5: Adding the hot glue
 
-Then followed the isolating layer. The authors chose to use hot glue for this purpose. The hot glue doesn't need to be applied everywhere but just on a rectangle that covers all of the sensors. It would probably even be enough when just the sensors get covered although this did not explicitly get tested. During this step, one has to pay attention that every part of the sensors is covered so that there are no holes in the hot glue layer. Otherwise, there can be a short circuit later on due to the grounding layer (that now follows) being in contact with the sensors. The result of this step can be seen in the following figure.
+Then followed the isolating layer. The authors chose to use hot glue for this purpose. The hot glue doesn't need to be applied everywhere but just on a rectangle that covers all of the sensors. During this step, one has to pay attention that every part of the sensors is covered so that there are no holes in the hot glue layer. Otherwise, there can be a short circuit later on due to the grounding layer (that now follows) being in contact with the sensors. The result of this step can be seen in the following figure.
 
 <img src="https://user-images.githubusercontent.com/44895720/90979736-6f461200-e557-11ea-9d59-ec8756725c11.jpg" height="450">
 
